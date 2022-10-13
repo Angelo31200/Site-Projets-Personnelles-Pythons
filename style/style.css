@@ -54,7 +54,7 @@ nav .onglets a:hover{
 footers {
     position:absolute;
     width: 100%;
-    bottom:0;
+    bottom:auto;
 }
 
 footers h1{
