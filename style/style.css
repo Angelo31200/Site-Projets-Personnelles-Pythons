@@ -51,6 +51,12 @@ nav .onglets a:hover{
 }
 
 /* footer */
+footers {
+    position:absolute;
+    width: 100%;
+    bottom:0;
+}
+
 footers h1{
 	text-align:center;
 	border-bottom: 5px solid #6f6f6f;
@@ -62,23 +68,18 @@ footers h1{
 	color : #717171;
 }
 
-/* Accueil image */
-
-div#accueil img{
-    display:flex;
-    background-size: cover;
-    width: 100%;
-    max-height: 90%;
-}
-
 /* Accueil paragraphe */
+
+div#accueil {
+    display:flex;
+    height: 100%;
+    width:100%
+}
 
 div#accueil p{
     position: absolute;
-    top: 25%;
-    left: 13%;
-    z-index: 2;
     text-align: center;
+    align-items: center;
     padding : 10px;
     font-size: 50px;
     font-weight: bold;
