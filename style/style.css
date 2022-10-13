@@ -70,13 +70,13 @@ footers h1{
 
 /* Accueil paragraphe */
 
-div#accueil {
+div.accueil {
     display:flex;
     height: 100%;
     width:100%
 }
 
-div#accueil p{
+div.accueil p{
     text-align: center;
     align-items: center;
     padding : 10px;
